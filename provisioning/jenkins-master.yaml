@@ -37,6 +37,5 @@
 
     - name: Ensure Jenkins is restarted
       service:
-        name:
-          - jenkins
+        name: jenkins
         state: restarted
