@@ -34,3 +34,9 @@
         name:
           - jenkins
         state: present
+
+    - name: Ensure Jenkins is restarted
+      service:
+        name:
+          - jenkins
+        state: restarted
