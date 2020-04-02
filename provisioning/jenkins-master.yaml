@@ -18,3 +18,8 @@
         name:
           - java-1.8.0-openjdk-devel
         state: present
+
+    - name: Ensure Jenkins repo GPG key is installed
+      rpm_key:
+        state: present
+        key: https://jenkins-ci.org/redhat/jenkins-ci.org.key
