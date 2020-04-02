@@ -28,3 +28,9 @@
       get_url:
         url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
         dest: /etc/yum.repos.d/jenkins.repo
+
+    - name: Ensure Jenkins is installed
+      package:
+        name:
+          - jenkins
+        state: present
