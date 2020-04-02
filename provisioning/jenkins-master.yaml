@@ -23,3 +23,8 @@
       rpm_key:
         state: present
         key: https://jenkins-ci.org/redhat/jenkins-ci.org.key
+
+    - name: Ensure Jenkins repo is installed
+      get_url:
+        url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+        dest: /etc/yum.repos.d/jenkins.repo
