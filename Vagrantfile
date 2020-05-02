@@ -9,9 +9,12 @@ Vagrant.configure("2") do |config|
 
   config.vm.boot_timeout = 600
 
-  config.vm.provider :virtualbox do |vb|
+  config.vm.provider "virtualbox" do |vb|
     vb.gui = false
-    vb.customize ["modifyvm", :id, "--memory", "1536"]
+
+    vb.cpus = "1"
+    vb.memory = "1536"
+
     vb.customize ["modifyvm", :id, "--audio", "none"]
   end
 
