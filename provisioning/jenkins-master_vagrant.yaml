@@ -1,0 +1,10 @@
+---
+- name: Jenkins Master Installation by Vagrant/Ansible
+  hosts: all
+  vars_files:
+    - jenkins-master_vars.yaml
+
+  tasks:
+
+  - name: Jenkins Master Installation Tasks
+    include_tasks: jenkins-master_tasks.yaml

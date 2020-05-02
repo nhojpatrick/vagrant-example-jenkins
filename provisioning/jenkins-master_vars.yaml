@@ -1,0 +1,5 @@
+jenkins_hostname: localhost
+java_packages:
+  - java-1.8.0-openjdk-devel
+jenkins_plugins:
+  - blueocean

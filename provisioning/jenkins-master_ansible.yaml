@@ -1,0 +1,10 @@
+---
+- name: Jenkins Master Installation by Ansible
+  hosts: localhost
+  vars_files:
+    - jenkins-master_vars.yaml
+
+  tasks:
+
+  - name: Jenkins Master Installation Tasks
+    include_tasks: jenkins-master_tasks.yaml
