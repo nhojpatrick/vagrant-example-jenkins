@@ -9,6 +9,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.boot_timeout = 600
 
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
 
