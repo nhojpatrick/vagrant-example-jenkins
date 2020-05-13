@@ -2,6 +2,16 @@ jenkins_hostname: localhost
 java_packages:
   - java-1.8.0-openjdk-devel
 jenkins_plugins:
+  - analysis-model
+  - dashboard-view
+  - git
+  - job-dsl
+  - pipeline-maven
+  - pipeline-model-definition
+  - pipeline-stage-view
+  - warnings-ng
+  - workflow-job
+  - workflow-multibranch
   - blueocean
 jenkins_admin_username: admin
 jenkins_admin_password: admin
