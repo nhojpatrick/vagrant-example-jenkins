@@ -1,6 +1,11 @@
 jenkins_hostname: localhost
+
+#jenkins_plugin_timeout: 120
+
 java_packages:
   - java-1.8.0-openjdk-devel
+#jenkins_java_options: "-Djenkins.install.runSetupWizard=false -Dorg.apache.commons.jelly.tags.fmt.timeZone=Europe/London"
+
 jenkins_plugins:
   - code-coverage-api
   - dashboard-view
