@@ -2,17 +2,28 @@ jenkins_hostname: localhost
 java_packages:
   - java-1.8.0-openjdk-devel
 jenkins_plugins:
-  - analysis-model
+  - code-coverage-api
   - dashboard-view
-  - git
   - job-dsl
-  - pipeline-maven
-  - pipeline-model-definition
+  - openshift-client
   - pipeline-stage-view
+  - rebuild
+  - view-job-filters
   - warnings-ng
-  - workflow-job
-  - workflow-multibranch
   - blueocean
+  - build-name-setter
+  - config-file-provider
+# basically does the same as blueocean
+    #  - analysis-model
+    #  - git
+    #  - pipeline-model-definition
+    #  - workflow-job
+    #  - workflow-multibranch
+# maybe useful
+#  - ansible
+#  - ansible-tower
+#  - bitbucket-push-and-pull-request
+
 jenkins_admin_username: admin
 jenkins_admin_password: admin
 jenkins_version: "2.222"
