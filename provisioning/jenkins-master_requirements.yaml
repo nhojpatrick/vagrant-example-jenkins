@@ -5,5 +5,5 @@
 #- src: geerlingguy.java
 - name: "geerlingguy.jenkins"
   src: https://github.com/nhojpatrick/geerlingguy_ansible-role-jenkins
-  version: use-become
+  version: latest-patched
 #- src: geerlingguy.jenkins
