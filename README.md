@@ -17,6 +17,10 @@ The following have been tested, other combinations might work;
 
 Simple as, ` vagrant up`, and a new vm will be created, with Java 8 and Jenkins installed.
 
+## Jenkins homepage
+
+http://localhost:8181/
+
 ## Notes
 
 The files `setup_*.yaml` are used as a work around to install the latest version of ansible, including git so that ansible galaxy can install from github.
