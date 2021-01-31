@@ -20,8 +20,8 @@ jenkins_plugins:
   - rebuild # easy re-execution
   - view-job-filters
   - warnings-ng
+  - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
-#  - xml-job-to-job-dsl
 #  - openshift-client
 # basically does the same as blueocean
     #  - analysis-model
