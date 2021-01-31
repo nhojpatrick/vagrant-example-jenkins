@@ -17,7 +17,7 @@ jenkins_plugins:
   - job-dsl
   - pipeline-stage-view
   - pipeline-utility-steps # readMavenPom
-  - rebuild
+  - rebuild # easy re-execution
   - view-job-filters
   - warnings-ng
   - blueocean
