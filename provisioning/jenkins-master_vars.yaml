@@ -12,7 +12,7 @@ jenkins_plugins:
   - config-file-provider # maven config i.e. jvm.config and settings.xml
   - dashboard-view
   - envinject
-  - git-forensics
+  - git-forensics # warnings-ng extension
   - greenballs
   - job-dsl
   - pipeline-stage-view
