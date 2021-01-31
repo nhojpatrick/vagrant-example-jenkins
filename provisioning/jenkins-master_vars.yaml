@@ -14,6 +14,7 @@ jenkins_plugins:
   - greenballs
   - job-dsl
   - pipeline-stage-view
+  - pipeline-utility-steps # readMavenPom
   - rebuild
   - view-job-filters
   - warnings-ng
