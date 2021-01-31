@@ -9,7 +9,7 @@ java_packages:
 jenkins_plugins:
   - build-name-setter # custom name i.e. "1.2.3-SNAPSHOT.123" vs "123"
   - code-coverage-api
-  - config-file-provider
+  - config-file-provider # maven config i.e. jvm.config and settings.xml
   - dashboard-view
   - envinject
   - git-forensics
