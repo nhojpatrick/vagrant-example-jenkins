@@ -12,6 +12,7 @@ jenkins_plugins:
   - config-file-provider
   - dashboard-view
   - envinject
+  - git-forensics
   - greenballs
   - job-dsl
   - pipeline-stage-view
