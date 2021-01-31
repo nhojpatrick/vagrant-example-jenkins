@@ -11,6 +11,7 @@ jenkins_plugins:
   - code-coverage-api
   - config-file-provider
   - dashboard-view
+  - envinject
   - greenballs
   - job-dsl
   - pipeline-stage-view
