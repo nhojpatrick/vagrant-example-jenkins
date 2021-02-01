@@ -29,7 +29,6 @@ jenkins_plugins:
   - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
 #  - openshift-client
-# basically does the same as blueocean
 # maybe useful
 #  - ansible
 #  - ansible-tower
