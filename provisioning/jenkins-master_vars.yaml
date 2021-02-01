@@ -7,6 +7,7 @@ java_packages:
 #jenkins_java_options: "-Djenkins.install.runSetupWizard=false -Dorg.apache.commons.jelly.tags.fmt.timeZone=Europe/London"
 
 jenkins_plugins:
+  - autocancel # autocancelConsecutiveBuilds()
   - build-name-setter # custom name i.e. "1.2.3-SNAPSHOT.123" vs "123"
   - code-coverage-api
   - config-file-provider # maven config i.e. jvm.config and settings.xml
