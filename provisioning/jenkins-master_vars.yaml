@@ -18,6 +18,7 @@ jenkins_plugins:
   - git-forensics # warnings-ng extension
   - greenballs
   - job-dsl
+  - pipeline-model-definition # wrapped up into blueocean
   - pipeline-stage-view
   - pipeline-utility-steps # readMavenPom
   - rebuild # easy re-execution
@@ -27,7 +28,6 @@ jenkins_plugins:
   - blueocean
 #  - openshift-client
 # basically does the same as blueocean
-    #  - pipeline-model-definition
     #  - workflow-job
     #  - workflow-multibranch
 # maybe useful
