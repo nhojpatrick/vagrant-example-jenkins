@@ -11,7 +11,7 @@ jenkins_plugins:
   - code-coverage-api
   - config-file-provider # maven config i.e. jvm.config and settings.xml
   - dashboard-view
-  - envinject
+  - envinject # environment variables injection into Jenkinsfile
   - git-forensics # warnings-ng extension
   - greenballs
   - job-dsl
