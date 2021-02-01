@@ -14,6 +14,7 @@ jenkins_plugins:
   - config-file-provider # maven config i.e. jvm.config and settings.xml
   - dashboard-view
   - envinject # environment variables injection into Jenkinsfile
+  - git # wrapped up into blueocean
   - git-forensics # warnings-ng extension
   - greenballs
   - job-dsl
@@ -26,7 +27,6 @@ jenkins_plugins:
   - blueocean
 #  - openshift-client
 # basically does the same as blueocean
-    #  - git
     #  - pipeline-model-definition
     #  - workflow-job
     #  - workflow-multibranch
