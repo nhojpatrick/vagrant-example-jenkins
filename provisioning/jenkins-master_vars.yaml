@@ -24,11 +24,11 @@ jenkins_plugins:
   - rebuild # easy re-execution
   - view-job-filters
   - warnings-ng
+  - workflow-job # wrapped up into blueocean
   - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
 #  - openshift-client
 # basically does the same as blueocean
-    #  - workflow-job
     #  - workflow-multibranch
 # maybe useful
 #  - ansible
