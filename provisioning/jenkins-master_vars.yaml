@@ -18,6 +18,7 @@ jenkins_plugins:
   - git-forensics # warnings-ng extension
   - greenballs
   - job-dsl
+  - junit-realtime-test-reporter
   - pipeline-model-definition # wrapped up into blueocean
   - pipeline-stage-view
   - pipeline-utility-steps # readMavenPom
