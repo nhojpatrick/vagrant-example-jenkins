@@ -29,7 +29,7 @@ jenkins_plugins:
   - workflow-multibranch # wrapped up into blueocean
   - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
-#  - openshift-client
+  - openshift-client # allows minishift/openshift slave agents
 # maybe useful
 #  - ansible
 #  - ansible-tower
