@@ -28,6 +28,8 @@ jenkins_plugins:
   - warnings-ng
   - workflow-job # wrapped up into blueocean
   - workflow-multibranch # wrapped up into blueocean
+  - cloudbees-folder
+  - folder-properties # extend cloudbees-folder with properties
   - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
   - openshift-client # allows minishift/openshift slave agents
