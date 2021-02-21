@@ -20,6 +20,7 @@ jenkins_plugins:
   - greenballs
   - job-dsl
   - junit-realtime-test-reporter
+  - saferestart
   - pipeline-model-definition # wrapped up into blueocean
   - pipeline-stage-view
   - pipeline-utility-steps # readMavenPom
