@@ -1,0 +1,9 @@
+---
+- name: Placebo Playbook
+  hosts: localhost
+
+  tasks:
+
+  - name: Placebo Tasks
+    ansible.builtin.debug:
+      msg: placebo
