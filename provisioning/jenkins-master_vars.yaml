@@ -33,6 +33,7 @@ jenkins_plugins:
   - xml-job-to-job-dsl # debug and troubleshooting
   - blueocean
   - openshift-client # allows minishift/openshift slave agents
+  - kubernetes # jenkins slave agents
 # maybe useful
 #  - ansible
 #  - ansible-tower
