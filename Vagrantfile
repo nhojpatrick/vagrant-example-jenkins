@@ -25,6 +25,7 @@ Vagrant.configure("2") do |config|
     inst.vm.hostname = "jenkins-master"
 
     inst.vm.network :forwarded_port, guest: 8080, host: 8181
+    inst.vm.network :forwarded_port, guest: 51515, host: 51515
 
     inst.vm.provision "ansible_local" do |ansible|
       ansible.compatibility_mode = "2.0"
